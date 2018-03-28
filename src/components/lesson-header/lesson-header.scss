@@ -1,0 +1,30 @@
+lesson-header {
+  $my-font-size: 14px;
+  .chips {
+    margin-right: 10px;
+  }
+  .container{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+  }
+  .review {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: map-get($colors, secondary);
+  }
+  .date {
+    font-size: $my-font-size;
+    font-weight: bold;
+  }
+  .time {
+    font-size: $my-font-size;
+    font-weight: 200;
+  }
+  .tags {
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+  }
+}
